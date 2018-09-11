@@ -1,0 +1,29 @@
+﻿@model Fiap06.Web.MVC.Models.Estado
+
+@{
+    ViewBag.Title = "Editar";
+}
+
+<h2>Editar Estado</h2>
+
+@using (Html.BeginForm())
+{
+    //Campo oculto
+    @Html.HiddenFor(e => e.EstadoID)
+    <div class="form-group">
+        @Html.LabelFor(estado => estado.Nome)
+        @Html.TextBoxFor(e => e.Nome, new { @class = "form-control"})
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(e => e.Sigla)
+        @Html.TextBoxFor(e => e.Sigla, new { @class = "form-control"})
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(e => e.Populacao)
+        @Html.TextBoxFor(e => e.Populacao, new { @class = "form-control"})
+    </div>
+    <div>
+        <input type="submit" value="ATUALIZAR" class="btn btn-primary"
+    </div>
+}
+

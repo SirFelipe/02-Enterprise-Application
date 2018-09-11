@@ -1,0 +1,42 @@
+﻿@model _03.Fiap.Web.MVC.Models.Jogo
+
+@{
+    ViewBag.Title = "Cadastrar";
+}
+
+<h2>Cadastrar</h2>
+
+@Churros.Message(TempData["msg"])
+
+@using (Html.BeginForm())
+{
+    <div class="form-group">
+        @Html.LabelFor(churros => churros.Nome)
+        @Html.TextBoxFor(j => j.Nome, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(j => j.Genero)
+        @Html.TextBoxFor(j => j.Genero, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.CheckBoxFor(j => j.Demo)
+        @Html.LabelFor(j => j.Demo)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(j => j.Plataforma)
+        @Html.DropDownListFor(j => j.Plataforma, ViewBag.plataformas as SelectList ,new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(j => j.Descricao)
+        @Html.TextAreaFor(j => j.Descricao, 5, 50, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(j => j.IdadeMinima)
+        @Html.TextBoxFor(c => c.IdadeMinima, new { @class = "form-control" })
+    </div>
+    @Churros.Submit("Cadastrar")
+}
+
+@section scripts{
+    <p>Conteúdo na section scripts...</p>
+}

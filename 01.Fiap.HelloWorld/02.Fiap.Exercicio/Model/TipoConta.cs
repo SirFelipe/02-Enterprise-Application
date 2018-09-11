@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _02.Fiap.Exercicio.Model
+{
+    enum TipoConta
+    {
+        Comum, Especial, Premium
+    }
+}

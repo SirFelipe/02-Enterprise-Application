@@ -1,0 +1,69 @@
+﻿@model List<Fiap04.Web.MVC.Models.Produto>
+
+@{
+    ViewBag.Title = "Listar Produto";
+}
+
+
+<h2>Listar</h2>
+
+<!-- Método, ProdutoController, Forma de requisição-->
+@using (Html.BeginForm("Buscar","Produto",FormMethod.Get, new { @class = "form-inline"}))
+{
+    <div>
+        <input type="text" name="nomeBusca" placeholder="Digite o nome do produto" class="form-control" />
+        <input type="submit" value="Pesquisar" class="btn btn-success" />
+    </div>
+}
+
+<table class="table">
+    <tr>
+        <th>Código</th>
+        <th>Nome</th>
+        <th>Descrição</th>
+        <th>Validade</th>
+    </tr>
+
+    @foreach (var items in Model)
+    {
+        <tr>
+            <td>@items.ProdutoId</td>
+            <td>@items.Nome</td>
+            <td>@items.Descricao</td>
+            <td>@items.Validade</td>
+            <td>
+                <!-- Button trigger modal -->
+                <button onclick="codigoProduto.value = @items.ProdutoId" type="button" class="btn btn-danger btn-xs" data-toggle="modal" data-target="#myModal">
+                    Excluir
+                </button>
+            </td>
+            <td>@Html.ActionLink("Atualizar", "Editar", new { id = items.ProdutoId }, new { @class = "btn btn-info btn-xs" })</td>
+        </tr>
+    }
+</table>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Realmente deseja excluir?</h4>
+            </div>
+            <div class="modal-body">
+                <p>Isso não tem volta, se você excluir os dados serão apagados e não poderam ser resgatados.</p>
+            </div>
+            <div class="modal-footer">
+                @using (Html.BeginForm("deletar", "produto"))
+                {
+                    <input type="hidden" name="id" id="codigoProduto"/>
+                    
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                    <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+                }
+
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,23 @@
+﻿@model Fiap05.Web.MVC.Models.Especialidade
+
+@{
+    ViewBag.Title = "Editar";
+}
+
+<h2>Atualização de Especialidade</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(e => e.EspecialidadeId)
+    <div class="form-group">
+        @Html.LabelFor(e => e.Nome)
+        @Html.TextBoxFor(e => e.Nome, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(e => e.Descricao)
+        @Html.TextAreaFor(e => e.Descricao, new { @class = "form-control" })
+    </div>
+    @Html.ActionLink("Cancelar","Listar", null, new { @class = "btn btn-default"})
+    @Ajudador.Botao("Editar")
+}
+

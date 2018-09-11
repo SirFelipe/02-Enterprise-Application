@@ -1,0 +1,28 @@
+﻿@model List<Fiap06.Web.MVC.Models.Estado>
+
+@{
+    ViewBag.Title = "Listar";
+}
+
+<h2>Listar</h2>
+
+<!-- Método EstadoController, Forma de requisição -->
+<table class="table">
+    <tr>
+        <th>Código</th>
+        <th>Nome</th>
+        <th>Sigla</th>
+        <th>População</th>
+    </tr>
+    @foreach (var items in Model)
+    {
+        <tr>
+            <td>@items.EstadoID</td>
+            <td>@items.Nome</td>
+            <td>@items.Sigla</td>
+            <td>@items.Populacao</td>
+            <td>@Html.ActionLink("ATUALIZAR", "Editar", new { id = items.EstadoID }, new { @class = "btn btn-info btn-xs"})</td>
+        </tr>
+    }
+</table>
+

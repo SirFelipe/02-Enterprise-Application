@@ -1,0 +1,7 @@
+C:\Users\logonrmlocal\Desktop\01.Fiap.HelloWorld\02.Fiap.Exercicio\bin\Debug\_02.Fiap.Exercicio.exe.config
+C:\Users\logonrmlocal\Desktop\01.Fiap.HelloWorld\02.Fiap.Exercicio\bin\Debug\_02.Fiap.Exercicio.exe
+C:\Users\logonrmlocal\Desktop\01.Fiap.HelloWorld\02.Fiap.Exercicio\bin\Debug\_02.Fiap.Exercicio.pdb
+C:\Users\logonrmlocal\Desktop\01.Fiap.HelloWorld\02.Fiap.Exercicio\obj\Debug\02.Fiap.Exercicio.csprojAssemblyReference.cache
+C:\Users\logonrmlocal\Desktop\01.Fiap.HelloWorld\02.Fiap.Exercicio\obj\Debug\02.Fiap.Exercicio.csproj.CoreCompileInputs.cache
+C:\Users\logonrmlocal\Desktop\01.Fiap.HelloWorld\02.Fiap.Exercicio\obj\Debug\_02.Fiap.Exercicio.exe
+C:\Users\logonrmlocal\Desktop\01.Fiap.HelloWorld\02.Fiap.Exercicio\obj\Debug\_02.Fiap.Exercicio.pdb

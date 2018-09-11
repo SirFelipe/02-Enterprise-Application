@@ -1,0 +1,30 @@
+﻿@model Fiap04.Web.MVC.Models.Produto
+
+@{
+    ViewBag.Title = "Editar";
+}
+
+<h2>Editar Produto</h2>
+
+
+@using (Html.BeginForm())
+{
+    //Campo oculto
+    @Html.HiddenFor(p => p.ProdutoId)
+    <div class="form-group">
+        @Html.LabelFor(produto => produto.Nome)
+        @Html.TextBoxFor(p => p.Nome, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(p => p.Descricao)
+        @Html.TextAreaFor(p => p.Descricao, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(p => p.Validade)
+        @Html.TextBoxFor(p => p.Validade, new { @class = "form-control" })
+    </div>
+    <div>
+        <input type="submit" value="Atualizar" class="btn btn-primary" />
+    </div>
+}
+

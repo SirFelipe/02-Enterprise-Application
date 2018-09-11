@@ -1,0 +1,25 @@
+﻿@model Fiap05.Web.MVC.Models.Medico
+
+@{
+    ViewBag.Title = "Cadastrar";
+}
+
+<h2>Cadastro de Médico</h2>
+
+@Ajudador.Mensagem(TempData["msg"])
+
+@using (Html.BeginForm())
+{
+    <div class="form-group">
+        @Html.LabelFor(m => m.Nome)
+        @Html.TextBoxFor(m => m.Nome, new { @class = "form-control"})
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Especialidade)
+        @Html.DropDownListFor(m => m.EspecialidadeId,
+            ViewBag.naoLembro as SelectList,
+            new { @class = "form-control" })
+    </div>
+    @Ajudador.Botao("Cadastrar")
+}
+

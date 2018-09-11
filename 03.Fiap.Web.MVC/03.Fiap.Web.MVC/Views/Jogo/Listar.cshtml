@@ -1,0 +1,23 @@
+﻿@model List<_03.Fiap.Web.MVC.Models.Jogo>
+
+@{
+    ViewBag.Title = "Listar";
+}
+
+<h2>Listar</h2>
+
+<table class="table">
+    <tr>
+        <th>Nome</th>
+        <th>Gênero</th>
+        <th>Demo</th>
+        <th>Plataforma</th>
+        <th>Descrição</th>
+        <th>Idade</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+       @Html.Partial("_linhaTabela",item)
+    }
+</table>
+

@@ -1,0 +1,150 @@
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\Fiap04.Web.MVC.dll.config
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\Fiap04.Web.MVC.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\Fiap04.Web.MVC.pdb
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\csc.exe
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\csc.exe.config
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\csc.rsp
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\csi.exe
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\csi.exe.config
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\csi.rsp
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.AppContext.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Collections.Immutable.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Console.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Diagnostics.Process.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.IO.Compression.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.IO.FileSystem.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.IO.Pipes.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Reflection.Metadata.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Security.AccessControl.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Security.Claims.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Threading.Thread.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.ValueTuple.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Xml.XPath.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\vbc.exe
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\vbc.exe.config
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\vbc.rsp
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\VBCSCompiler.exe
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\VBCSCompiler.exe.config
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\EntityFramework.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\EntityFramework.SqlServer.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\Microsoft.Web.Infrastructure.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\System.Web.Helpers.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\System.Web.Mvc.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\System.Web.Razor.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\System.Web.Webpages.Deployment.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\System.Web.Webpages.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\System.Web.Webpages.Razor.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\EntityFramework.xml
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\EntityFramework.SqlServer.xml
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\System.Web.Razor.xml
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\System.Web.Webpages.xml
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\System.Web.Webpages.Deployment.xml
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\System.Web.Webpages.Razor.xml
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\System.Web.Helpers.xml
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\System.Web.Mvc.xml
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\obj\Debug\Fiap04.Web.MVC.csprojAssemblyReference.cache
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\obj\Debug\Fiap04.Web.MVC.csproj.CoreCompileInputs.cache
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\obj\Debug\Fiap04.Web.MVC.csproj.CopyComplete
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\obj\Debug\Fiap04.Web.MVC.dll
+D:\Workspace\Fiap04.Web.MVC\Fiap04.Web.MVC\obj\Debug\Fiap04.Web.MVC.pdb
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\Fiap04.Web.MVC.dll.config
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\Fiap04.Web.MVC.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\Fiap04.Web.MVC.pdb
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\csc.exe
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\csc.exe.config
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\csc.rsp
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\csi.exe
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\csi.exe.config
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\csi.rsp
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.AppContext.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Collections.Immutable.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Console.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Diagnostics.Process.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.IO.Compression.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.IO.FileSystem.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.IO.Pipes.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Reflection.Metadata.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Security.AccessControl.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Security.Claims.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Security.Principal.Windows.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Threading.Thread.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.ValueTuple.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Xml.XmlDocument.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Xml.XPath.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\vbc.exe
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\vbc.exe.config
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\vbc.rsp
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\VBCSCompiler.exe
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\roslyn\VBCSCompiler.exe.config
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\EntityFramework.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\EntityFramework.SqlServer.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\Microsoft.Web.Infrastructure.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\System.Web.Helpers.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\System.Web.Mvc.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\System.Web.Razor.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\System.Web.Webpages.Deployment.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\System.Web.Webpages.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\System.Web.Webpages.Razor.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\EntityFramework.xml
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\EntityFramework.SqlServer.xml
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\System.Web.Razor.xml
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\System.Web.Webpages.xml
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\System.Web.Webpages.Deployment.xml
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\System.Web.Webpages.Razor.xml
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\System.Web.Helpers.xml
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\System.Web.Mvc.xml
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\obj\Debug\Fiap04.Web.MVC.csprojAssemblyReference.cache
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\obj\Debug\Fiap04.Web.MVC.csproj.CoreCompileInputs.cache
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\obj\Debug\Fiap04.Web.MVC.csproj.CopyComplete
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\obj\Debug\Fiap04.Web.MVC.dll
+E:\FIAP\Fiap - 2_ano\Segundo Semestre\Enterprise Application Development\Exercicios\Fiap04.Web.MVC\Fiap04.Web.MVC\obj\Debug\Fiap04.Web.MVC.pdb
