@@ -19,5 +19,11 @@ namespace Fiap06.Web.MVC.Models
         //[MaxLength(50)]
 
         public DateTime DataFundacao { get; set; }
+
+
+        //[RELACIONAMENTOS]
+        public Estado Estado { get; set; }
+
+        public int EstadoId { get; set; }
     }
 }

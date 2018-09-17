@@ -25,5 +25,8 @@ namespace Fiap06.Web.MVC.Models
 
 
         public int Populacao { get; set; }
+
+
+        public List<Cidade> Cidades { get; set; }
     }
 }

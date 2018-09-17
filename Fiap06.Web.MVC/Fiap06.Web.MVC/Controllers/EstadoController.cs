@@ -1,5 +1,6 @@
 ﻿using Fiap06.Web.MVC.Models;
 using Fiap06.Web.MVC.Persistencia;
+using Fiap06.Web.MVC.UnitsOfWork;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -14,6 +15,8 @@ namespace Fiap06.Web.MVC.Controllers
 
         //Lista - banco
         private GeografiaContext _context = new GeografiaContext();
+        private UnitOfWork _unit = new UnitOfWork();
+
 
         // GET: Estado
         public ActionResult Index()
@@ -32,8 +35,8 @@ namespace Fiap06.Web.MVC.Controllers
         [HttpPost]
         public ActionResult Cadastrar(Estado estado)
         {
-            _context.Estados.Add(estado);
-            _context.SaveChanges();
+            _unit.EstadoRepository.Cadastrar(estado);
+            _unit.Salvar();
             TempData["msg"] = "Estado cadastrado com sucesso."; 
             //redirect para não cadastrar novamente no F5
             return RedirectToAction("Cadastrar");
@@ -61,6 +64,13 @@ namespace Fiap06.Web.MVC.Controllers
             _context.SaveChanges();
             TempData["msg"] = "Estado atualizado.";
             return RedirectToAction("Listar");
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            _unit.Dispose();
+            base.Dispose(disposing);
+
         }
     }
 }

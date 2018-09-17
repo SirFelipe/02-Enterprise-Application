@@ -1,0 +1,35 @@
+﻿@model List<Fiap06.Web.MVC.Models.Cidade>
+
+
+    @{
+        ViewBag.Title = "Listar";
+    }
+
+    <h2>Listar</h2>
+
+@using (Html.BeginForm("Buscar","Cidade",FormMethod.Get, new { @class = "form-inline"}))
+{
+    @Html.DropDownList("cdEstado",
+        ViewBag.estados as SelectList,"Selecione o estado", new { @class = "form-control"})
+    <input type="submit" value="Buscar" class="btn btn-primary"/>
+}
+<br/>
+    <!-- Método EstadoController, Forma de requisição -->
+<table class="table">
+
+    <tr>
+        <th>Código</th>
+        <th>Nome</th>
+        <th>Data Fundação</th>
+        <th>Estado</th>
+    </tr>
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>@item.CidadeID</td>
+            <td>@item.Nome</td>
+            <td>@item.DataFundacao.ToShortDateString()</td>
+            <td>@item.Estado.Sigla</td>
+        </tr>
+    }
+</table>
