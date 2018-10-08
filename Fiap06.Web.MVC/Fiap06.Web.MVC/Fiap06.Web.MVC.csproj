@@ -122,9 +122,12 @@
     </Compile>
     <Compile Include="Models\Cidade.cs" />
     <Compile Include="Models\Estado.cs" />
+    <Compile Include="Models\Regiao.cs" />
     <Compile Include="Persistencia\GeografiaContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\CidadeRepository.cs" />
     <Compile Include="Repositories\EstadoRepository.cs" />
+    <Compile Include="Repositories\ICidadeRepository.cs" />
     <Compile Include="Repositories\IEstadoRepository.cs" />
     <Compile Include="UnitsOfWork\UnitOfWork.cs" />
   </ItemGroup>
@@ -140,6 +143,7 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Cidade\Cadastrar.cshtml" />
     <Content Include="Views\Cidade\Listar.cshtml" />
+    <Content Include="Views\Cidade\Editar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

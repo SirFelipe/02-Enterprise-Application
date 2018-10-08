@@ -1,5 +1,6 @@
 ﻿using Fiap06.Web.MVC.Models;
 using Fiap06.Web.MVC.Persistencia;
+using Fiap06.Web.MVC.UnitsOfWork;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,66 +11,77 @@ namespace Fiap06.Web.MVC.Controllers
 {
     public class CidadeController : Controller
     {
+        private UnitOfWork _unit = new UnitOfWork();
 
-        private GeografiaContext _context = new GeografiaContext();
-
-
-      //CADASTRAR
-
-      //Método que retorna a página de cadastro
-      [HttpGet]
-      public ActionResult Cadastrar()
+        [HttpPost]
+        public ActionResult Excluir(int codigo)
         {
-            var lista  = _context.Estados.ToList();
-            ViewBag.estados = new SelectList(lista, "EstadoId", "Sigla");
-            return View();
+            _unit.CidadeRepository.Excluir(codigo);
+            _unit.Salvar();
+            TempData["msg"] = "Cidade removida";
+            return RedirectToAction("Listar");
         }
 
-
-      [HttpPost]
-      public ActionResult Cadastrar(Cidade cidade)
+        [HttpPost]
+        public ActionResult Editar(Cidade cidade)
         {
-            _context.Cidades.Add(cidade);
-            _context.SaveChanges();
-            TempData["msg"] = "Cidade cadastrada com sucesso";
-
-            return RedirectToAction("Cadastrar");
+            _unit.CidadeRepository.Editar(cidade);
+            _unit.Salvar();
+            TempData["msg"] = "Cidade atualizada";
+            return RedirectToAction("Listar");
         }
 
-
-
-      //LISTAR
-      public ActionResult Listar()
+        [HttpGet]
+        public ActionResult Editar(int id)
         {
             CarregarCombo();
-            var lista = _context.Cidades.Include("Estado").ToList();
+            var cidade = _unit.CidadeRepository.BuscarPorCodigo(id);
+            return View(cidade);
+        }
+
+        [HttpGet]
+        public ActionResult Buscar(int? estado)
+        {
+            CarregarCombo();
+            var lista = _unit.CidadeRepository
+                .BuscarPor(c => c.EstadoId == estado || estado == null);
+            return View("Listar", lista);
+        }
+
+        [HttpGet]
+        public ActionResult Listar()
+        {
+            CarregarCombo();
+            var lista = _unit.CidadeRepository.Listar();
             return View(lista);
         }
 
         private void CarregarCombo()
         {
-            var ufs = _context.Estados.ToList();
-            ViewBag.estados = new SelectList(ufs, "EstadoId", "Sigla");
+            var ufs = _unit.EstadoRepository.Listar();
+            ViewBag.estados = new SelectList(ufs, "EstadoId", "Nome");
         }
 
-        //MÉTODO BUSCAR
-        public ActionResult Buscar(int? cdEstado)
+        [HttpGet]
+        public ActionResult Cadastrar()
         {
             CarregarCombo();
-            var lista = _context.Cidades.Include("Estado")
-                .Where(c => c.EstadoId == cdEstado || cdEstado == null).ToList();
+            return View();
+        }
 
-           /* if(cdEstado != null)
-            {
-                return View("Listar", lista);
-            }
-            else
-            {
-                RedirectToAction()
-            }
-            */
+        [HttpPost]
+        public ActionResult Cadastrar(Cidade cidade)
+        {
+            _unit.CidadeRepository.Cadastrar(cidade);
+            _unit.Salvar();
+            TempData["msg"] = "Cidade cadastrada";
+            return RedirectToAction("Cadastrar");
+        }
 
-            return View("Listar", lista);
+        protected override void Dispose(bool disposing)
+        {
+            _unit.Dispose();
+            base.Dispose(disposing);
         }
     }
 }
