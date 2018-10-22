@@ -1,4 +1,4 @@
-﻿@model Fiap07.Web.MVC.Models.Editora
+﻿@model Fiap07.Web.MVC.ViewModel.EditoraViewModel
 
 @{
     ViewBag.Title = "Cadastrar";
@@ -19,4 +19,19 @@
     </div>
     <input type="submit" value="Cadastrar" class="btn btn-primary" />
 }
+
+<h2>Lista de Editoras</h2>
+<table class="table">
+    <tr>
+        <th>Código</th>
+        <th>Nome</th>
+    </tr>
+    @foreach (var item in Model.Editoras)
+    {
+        <tr>
+            <td>@item.EditoraId</td>
+            <td>@item.Nome</td>
+        </tr>
+    }
+</table>
 

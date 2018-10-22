@@ -126,6 +126,9 @@
     <Compile Include="Repositories\ILivroRepository.cs" />
     <Compile Include="Repositories\LivroRepository.cs" />
     <Compile Include="Units\UnitOfWork.cs" />
+    <Compile Include="ViewModel\Editora.cs" />
+    <Compile Include="ViewModel\ListaLivroViewModel.cs" />
+    <Compile Include="ViewModel\LivroViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
