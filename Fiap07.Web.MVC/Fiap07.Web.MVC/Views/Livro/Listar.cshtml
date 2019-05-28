@@ -7,8 +7,8 @@
 
 @using (Html.BeginForm("Buscar", "Livro", FormMethod.Get, new { @class = "form-inline" }))
 {
-    @Html.TextBoxFor(l => l.Titulo, new { @class = "form-control" })
-    <input type="submit" value="Cadastrar" class="btn btn-primary" />
+    @Html.TextBoxFor(l => l.Titulo, new { @class = "form-control", placeholder = "Buscar por Titulo" })
+    <input type="submit" value="Buscar" class="btn btn-primary" />
 }
 <br />
 
